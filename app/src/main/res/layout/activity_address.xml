@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_40">
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_16"
+            android:text="我的收获地址"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:id="@+id/btn_wancheng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="完成"
+            android:textSize="@dimen/sp_12"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dp_24"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:id="@+id/actvity_address_xrecy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_below="@id/top"
+        android:layout_above="@id/bottom"
+        android:layout_centerHorizontal="true">
+
+    </com.jcodecraeer.xrecyclerview.XRecyclerView>
+   <LinearLayout
+       android:id="@+id/bottom"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_marginBottom="@dimen/dp_30"
+       android:orientation="vertical">
+       <Button
+           android:id="@+id/address_btn_address"
+           android:layout_width="@dimen/dp_116"
+           android:layout_height="@dimen/dp_30"
+           android:layout_gravity="center_horizontal"
+           android:background="#e46b6b"
+           android:textColor="#fff"
+           android:text="新增收货地址"
+           android:layout_marginBottom="@dimen/dp_30"/>
+   </LinearLayout>
+
+</RelativeLayout>

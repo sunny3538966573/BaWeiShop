@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/shape_shangpin_bg"
+        android:layout_marginBottom="@dimen/dp_10">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10">
+            <TextView
+                android:id="@+id/receive_dingdan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="订单号   WD456132216546531"
+                android:textSize="@dimen/sp_12"
+                android:layout_margin="@dimen/dp_10"
+                android:textColor="#666666"/>
+            <TextView
+                android:id="@+id/receive_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2018-02-10"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/sp_12"
+                android:layout_margin="@dimen/dp_10"
+                android:textColor="#666666"/>
+        </RelativeLayout>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/receive_adapter_recy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/receive_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="派件公司  圆通快递"
+            android:textSize="@dimen/sp_12"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:layout_marginLeft="@dimen/dp_5"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/receive_order_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="快递编号  20190112084211784571"
+                android:textSize="@dimen/dp_12"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:layout_centerVertical="true"/>
+            <Button
+                android:layout_width="@dimen/dp_70"
+                android:layout_height="@dimen/dp_25"
+                android:layout_alignParentRight="true"
+                android:text="确认收获"
+                android:textColor="#ffffff"
+                android:background="@drawable/shape_button_bg"
+                android:layout_marginRight="@dimen/dp_10"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:padding="@dimen/dp_5"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

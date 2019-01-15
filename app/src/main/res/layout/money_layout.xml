@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/shape_shangpin_bg"
+        android:layout_marginBottom="@dimen/dp_10">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10">
+            <TextView
+                android:id="@+id/money_dingdan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="订单号   WD456132216546531"
+                android:textSize="@dimen/sp_12"
+                android:layout_margin="@dimen/dp_10"
+                android:textColor="#666666"/>
+            <TextView
+                android:id="@+id/money_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2018-02-10"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/sp_12"
+                android:layout_margin="@dimen/dp_10"
+                android:textColor="#666666"/>
+        </RelativeLayout>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/money_recy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        </android.support.v7.widget.RecyclerView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/money_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="共3件产品，需支付1880元"
+                android:textSize="@dimen/sp_12"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/dp_5"
+                android:layout_marginBottom="@dimen/dp_5"
+                android:layout_marginRight="@dimen/dp_5"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_money_cancel"
+                android:layout_width="@dimen/dp_60"
+                android:layout_height="@dimen/dp_20"
+                android:text="取消订单"
+                android:background="@drawable/shape_cancel_button_bg"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_marginBottom="@dimen/dp_10"/>
+            <Button
+                android:id="@+id/btn_money_pay"
+                android:layout_width="@dimen/dp_60"
+                android:layout_height="@dimen/dp_20"
+                android:layout_alignParentRight="true"
+                android:text="去支付"
+                android:background="@drawable/shape_button_bg"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:textColor="@android:color/white"
+                android:layout_marginRight="@dimen/dp_10"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_140"
+    android:background="#4f4f4f"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:id="@+id/hs"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_36">
+
+        <RadioGroup
+            android:id="@+id/popupwindow_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_36"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/popupwindow_item_child_ra1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_24"
+                android:button="@null"
+                android:text="男装"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_16" />
+
+            <RadioButton
+                android:id="@+id/popupwindow_item_child_ra2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:button="@null"
+                android:text="女装"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_16" />
+
+            <RadioButton
+                android:id="@+id/popupwindow_item_child_ra3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:button="@null"
+                android:text="女鞋"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_16" />
+
+            <RadioButton
+                android:id="@+id/popupwindow_item_child_ra4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:button="@null"
+                android:text="T桖"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_16" />
+
+            <RadioButton
+                android:id="@+id/popupwindow_item_child_ra5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:button="@null"
+                android:text="美妆护肤"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_16" />
+
+            <RadioButton
+                android:id="@+id/popupwindow_item_child_ra6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:button="@null"
+                android:text="手机数码"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_16" />
+
+            <RadioButton
+                android:id="@+id/popupwindow_item_child_ra7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:button="@null"
+                android:text="礼品箱包"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_16" />
+
+            <RadioButton
+                android:id="@+id/popupwindow_item_child_ra8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:button="@null"
+                android:text="饰品首饰"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_16" />
+
+            <RadioButton
+                android:id="@+id/popupwindow_item_child_ra9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:button="@null"
+                android:text="母婴玩具"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_16" />
+
+        </RadioGroup>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <RadioGroup
+        android:id="@+id/popupwindow_item_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/popupwindow_item_child_ra10"
+            android:layout_marginLeft="@dimen/dp_30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableTop="@drawable/category_icon_coat_n_hdpi"
+            android:text="毛衣"
+            android:gravity="center"
+            android:textSize="@dimen/sp_12"
+            android:textColor="@color/white"
+            android:drawablePadding="@dimen/dp_15"/>
+        <RadioButton
+            android:id="@+id/popupwindow_item_child_ra11"
+            android:layout_marginLeft="@dimen/dp_25"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableTop="@drawable/category_icon_pants_n_hdpi"
+            android:text="裤装"
+            android:gravity="center"
+            android:textSize="@dimen/sp_12"
+            android:textColor="@color/white"
+            android:drawablePadding="@dimen/dp_15"/>
+        <RadioButton
+            android:id="@+id/popupwindow_item_child_ra12"
+            android:layout_marginLeft="@dimen/dp_25"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableTop="@drawable/category_icon_skirt_n_hdpi"
+            android:text="裙装"
+            android:gravity="center"
+            android:textSize="@dimen/sp_12"
+            android:textColor="@color/white"
+            android:drawablePadding="@dimen/dp_15"/>
+        <RadioButton
+            android:id="@+id/popupwindow_item_child_ra13"
+            android:layout_marginLeft="@dimen/dp_25"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableTop="@drawable/category_icon_coat_n_hdpi"
+            android:text="外套"
+            android:gravity="center"
+            android:textSize="@dimen/sp_12"
+            android:textColor="@color/white"
+            android:drawablePadding="@dimen/dp_15"/>
+        <RadioButton
+            android:id="@+id/popupwindow_item_child_ra14"
+            android:layout_marginLeft="@dimen/dp_25"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableTop="@drawable/category_icon_hoodie_n_hdpi"
+            android:text="卫衣"
+            android:gravity="center"
+            android:textSize="@dimen/sp_12"
+            android:textColor="@color/white"
+            android:drawablePadding="@dimen/dp_15"/>
+    </RadioGroup>
+    </HorizontalScrollView>
+</LinearLayout>

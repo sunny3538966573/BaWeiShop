@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bwie.fragment.UfoFragment"
+    android:orientation="vertical">
+   <com.jcodecraeer.xrecyclerview.XRecyclerView
+       android:id="@+id/fragment_circle_recy"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginLeft="@dimen/dp_12"
+       android:layout_marginRight="@dimen/dp_12"
+       android:layout_marginTop="@dimen/dp_44">
+
+   </com.jcodecraeer.xrecyclerview.XRecyclerView>
+   <ImageView
+       android:id="@+id/ufo_post"
+       android:layout_width="@dimen/dp_50"
+       android:layout_height="@dimen/dp_50"
+       android:src="@drawable/post"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginBottom="@dimen/dp_10"
+       android:layout_marginRight="@dimen/dp_25"/>
+
+</RelativeLayout>
